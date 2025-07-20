@@ -260,7 +260,6 @@ const Experience = () => {
             {item.position} {item.typeOfEmployment === "n/a" ? "" : `(${item.typeOfEmployment})`}
           </div>
           <div>{item.location}</div>
-          <div className="font-bold">{item.date}</div>
         </div>
       )}
     </Section>
